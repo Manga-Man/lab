@@ -1,0 +1,56 @@
+.navbar {
+    height: 85px;
+    width: 100%;
+    background-color: #111111;
+    box-shadow: 10px 10px 10px 8px #575050;
+    padding: 0 !important;
+    position: relative;
+}
+
+.border {
+    height: 6px;
+    width: 100%;
+    background-color: #B379B7;
+    position: absolute;
+    bottom: 0;
+}
+
+.header {
+    width: 100%;
+    height: 550px;
+    background-color: #B379B7;
+    text-align: center;
+    align-content: center;
+    padding-top: 200px;
+}
+
+.page {
+    background-color: #111111;
+    width: 100%;
+    height: 800px;
+    padding-top: 5%;
+}
+
+.logo {
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: -4px;
+    color: aliceblue;
+    font-family: 'Silkscreen', cursive;
+}
+
+#generator {
+    width: 400px;
+    height: 500px;
+    background-color: #111111;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-top: 25px;
+}
+
+.custom-checkbox {
+    margin-left: 26px;
+}

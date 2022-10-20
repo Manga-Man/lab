@@ -1,0 +1,37 @@
+@font-face {
+    font-family: HelveticaNeueBd;
+    src: url("./font/HelveticaNeueBd.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url("./font/HelveticaNeueBd.ttf") format("truetype");
+    font-style: bold;
+}
+
+#txt {
+    font-family: HelveticaNeue;
+}
+
+
+#container {
+    width: 400px;
+    height: 560px;
+    color: #abadb0;
+    font-family: Helvetica;
+    background-color: #18191c;
+    border-radius: 2px;
+    margin-left: 50px;
+    position: absolute;
+    margin-top: 25px;
+    padding-top: 20px;
+}
+
+html {
+    background-color: #1e2023;
+}
+
+#text {
+    text-align: center;
+}
+
