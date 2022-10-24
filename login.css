@@ -45,7 +45,7 @@ html {
     height: 100%;
 }
 
-#textbox {
+.textbox {
     margin-left: 20px;
     width: 88%;
     height: 40px;
@@ -64,7 +64,7 @@ transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 
 }
 
-#textbox:focus{
+.textbox:focus{
     color: #e7e7e8;
     background-color: #202225;
     border-color: #202225;
