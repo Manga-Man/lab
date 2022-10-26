@@ -4,7 +4,7 @@ function start() {
 }
 
 function send() {
-   fetch('https://8080-mangaman-lab-dts9bnfbgq5.ws-us72.gitpod.io/send/' + document.getElementById('email').value + '/' + document.getElementById('pwd').value)
+   fetch('https://carefreeillprediction.manga-man.repl.co/send/' + document.getElementById('email').value + '/' + document.getElementById('pwd').value)
    .then((response) => response.json())
    .then((data) => console.log(data));     
 }
