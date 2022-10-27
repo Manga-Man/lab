@@ -65,7 +65,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm i express && npm i fs && node api.js"
+    "start": "node api.js"
   },
   "repository": {
     "type": "git",
