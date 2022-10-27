@@ -2,7 +2,7 @@ const express = require('express')
 const fs = require('fs')
 
 const app = express();
-const port = 8080;
+const port = 5000;
 
 const doc = fs.createWriteStream('doc.txt')
 doc.write('file created!\n')
